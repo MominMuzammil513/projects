@@ -4,36 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
-    <title>calculator</title>
   </head>
   <body>
-    <section>
-      <div class="container">
-        <div id="display"></div>
-        <div class="buttons">
-          123
-          <div class="button">2</div>
-          <div class="button">3</div>
-          <div class="button">4</div>
-          <div class="button">5</div>
-          <div class="button">6</div>
-          <div class="button">7</div>
-          <div class="button">8</div>
-          <div class="button">9</div>
-          <div class="button">10</div>
-          <div class="button">11</div>
-          <div class="button">12</div>
-          <div class="button">13</div>
-          <div class="button">14</div>
-          <div class="button">15</div>
-          <div class="button">16</div>
-          <div class="button">17</div>
-          <div class="button">18</div>
-          <div class="button">&larr;</div>
-          <div id="equal" class="button">=</div>
-        </div>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="calculator">
+        <input type="text" name="screen" id="screen" class="screen" />
+        <table>
+          <tr>
+            <td><button class="row1">Ac</button></td>
+            <td>
+              <button class="row1">
+                <img src="back-logo.png" alt="" class="back-logo" />
+              </button>
+            </td>
+            <td><button class="row1">%</button></td>
+            <td><button class="row1">/</button></td>
+          </tr>
+          <tr>
+            <td><button class="row2">7</button></td>
+            <td><button class="row2">8</button></td>
+            <td><button class="row2">9</button></td>
+            <td><button class="row2">x</button></td>
+          </tr>
+          <tr>
+            <td><button class="row3">4</button></td>
+            <td><button class="row3">5</button></td>
+            <td><button class="row3">6</button></td>
+            <td><button class="row3">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="row4">1</button></td>
+            <td><button class="row4">2</button></td>
+            <td><button class="row4">3</button></td>
+            <td><button class="row4">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="row5">00</button></td>
+            <td><button class="row5">0</button></td>
+            <td><button class="row5">.</button></td>
+            <td><button class="row6">=</button></td>
+          </tr>
+        </table>
       </div>
-    </section>
+    </div>
+    <script src="cal.js"></script>
   </body>
 </html>
